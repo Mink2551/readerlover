@@ -16,7 +16,7 @@ body {
 }
 
 .gradient2-text {
-    background: linear-gradient(to Right, #3af621, #18fcd2);
+    background: linear-gradient(to Right, #c8f621, #fcde18);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .gradient2-bg {
-    background: linear-gradient(to Right, #3af621, #18fcd2);
+    background: linear-gradient(to Right, #2188f6, #186cfc);
 }
 
 .gradient-bg:hover {

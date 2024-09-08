@@ -65,7 +65,7 @@ function CreateReviewPage() {
 
             {/* Header */}
             <Header />
-            <h1 className="flex w-fit mt-5 font-bold text-4xl gradient2-text mx-auto text-gray-300" style={{ textShadow: '5px 5px 10px rgba(0, 0, 0, 0.2)' }}>Create Reviews </h1>
+            <h1 className="flex w-fit mt-5 font-bold text-4xl text-red-300 mx-auto " style={{ textShadow: '5px 5px 10px rgba(0, 0, 0, 0.2)' }}>Create Reviews </h1>
 
             {/* Forms */}
             <form onSubmit={handleSubmit} className="hover:animated-outline w-[500px] max-w-[90vw] grid rounded-3xl py-5 pb-10 shadow-2xl m-10 mx-auto bg-opacity-50 hover:bg-opacity-100 bg-cyan-400 duration-1000 cursor-pointer hover:scale-105">
@@ -104,7 +104,7 @@ function CreateReviewPage() {
                     <input onChange={(e) => setRate(e.target.value)} className="hover:animated-outline px-1 py-1 rounded-lg text-xl w-[160px] mx-auto min-h-[50px] max-h-[150px] mt-2 bg-gray-200" type="number" min="1" max="10" placeholder="Rate the book" />
 
                 {/* Submit Button */}
-                <button type="submit" className="hover:animated-outline gradient2-bg w-fit mx-auto mt-7 px-4 py-1 rounded-xl font-bold text-green-700 hover:text-green-800 hover:scale-110 duration-300 ">Create Review</button>
+                <button type="submit" className="hover:animated-outline gradient2-bg w-fit mx-auto mt-7 px-4 py-1 rounded-xl font-bold text-white shadow-2xl hover:text- hover:scale-110 duration-300 ">Create Review</button>
             </form>
         </div>
     )

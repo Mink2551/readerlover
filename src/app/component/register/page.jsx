@@ -57,7 +57,7 @@ function RegisterPage() {
     <div className="">
         <Header/>
         <div className="">
-            <h1 className="flex w-fit mt-5 font-bold text-4xl mx-auto text-gray-300" style={{ textShadow:'5px 5px 10px rgba(0, 0, 0, 0.5)' }}>Register </h1>
+            <h1 className="flex w-fit mt-5 font-bold text-4xl mx-auto text-red-300" style={{ textShadow:'5px 5px 10px rgba(0, 0, 0, 0.5)' }}>Register </h1>
         </div>
         <form onSubmit={handleSubmit} className=" grid w-fit mx-auto mt-10 gap-y-5">
 
