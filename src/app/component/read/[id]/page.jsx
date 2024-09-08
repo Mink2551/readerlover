@@ -60,7 +60,7 @@ function MainMenuPage({ params }) {
 
             <Header />
             
-            <div className="bg-orange-200 bg-opacity-80 my-10 break-words  p-5 ronded-lg rounded-3xl max-w-full mx-auto">
+            <div className="bg-orange-200 bg-opacity-80 my-10 break-words p-5 ronded-lg rounded-3xl max-w-[1000px] mx-auto">
                 <h1 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">
                     Title : <span className="text-gray-800 text-xl md:text-2xl">{reviewData.title}</span>
                 </h1>
