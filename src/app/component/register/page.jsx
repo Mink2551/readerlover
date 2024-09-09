@@ -73,10 +73,10 @@ function RegisterPage() {
                 </div>
             )}
 
-            <input onChange={(e) => setName(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-3 py-1 rounded-xl font-bold" type="text" placeholder="Enter Your Username"/>
-            <input onChange={(e) => setEmail(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-3 py-1 rounded-xl font-bold" type="email" placeholder="Enter Your Email"/>
-            <input onChange={(e) => setPassword(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-3 py-1 rounded-xl font-bold" type="Password" placeholder="Enter Your Password"/>
-            <input onChange={(e) => setConfirmPassword(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-3 py-1 rounded-xl font-bold" type="Password" placeholder="Confirm Password"/>
+            <input onChange={(e) => setName(e.target.value)} className="hover:animated-outline border-2 border-white w=[280px] pl-3 py-1 rounded-xl font-bold" type="text" placeholder="ใส่ชื่อจริง นามสกุุล ระดับชั้น"/>
+            <input onChange={(e) => setEmail(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-3 py-1 rounded-xl font-bold" type="email" placeholder="ใส่ อีเมล ของคุณ"/>
+            <input onChange={(e) => setPassword(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-3 py-1 rounded-xl font-bold" type="Password" placeholder="ใส่รหัสผ่านของคุณ"/>
+            <input onChange={(e) => setConfirmPassword(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-3 py-1 rounded-xl font-bold" type="Password" placeholder="ยืนยันรหัสผ่าน"/>
             <div>
                 <button type='submit' className="bg-green-400 py-1 w-fit mx-auto px-4 rounded-xl font-bold text-green-800 hover:bg-green-500 transition-all shadow-2xl">Sign Up</button>
             </div>

@@ -54,8 +54,8 @@ function LoginPage() {
                 </div>
             )}
 
-            <input onChange={(e) => setEmail(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-1 py-1 rounded-xl font-bold" type="email" placeholder="Enter Your Email"/>
-            <input onChange={(e) => setPassword(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-1 py-1 rounded-xl font-bold" type="Password" placeholder="Enter Your Password"/>
+            <input onChange={(e) => setEmail(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-1 py-1 rounded-xl font-bold" type="email" placeholder="ใส่ อีเมล ของคุณ"/>
+            <input onChange={(e) => setPassword(e.target.value)} className="hover:animated-outline border-2 border-white pr-16 pl-1 py-1 rounded-xl font-bold" type="Password" placeholder="ใส่รหัสผ่านของคุณ"/>
             <button type='submit' className="bg-green-400 py-1 w-fit  px-4 rounded-xl font-bold text-green-800 hover:bg-green-500 transition-all shadow-2xl">Sign Up</button>
         </form>
 
